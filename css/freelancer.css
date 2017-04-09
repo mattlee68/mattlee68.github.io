@@ -13,6 +13,8 @@ p {
 p.small {
   font-size: 16px;
 }
+
+
 a,
 a:hover,
 a:focus,
@@ -21,6 +23,7 @@ a.active {
   color: #18BC9C;
   outline: none;
 }
+
 h1,
 h2,
 h3,
