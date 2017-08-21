@@ -509,3 +509,9 @@ fieldset[disabled] .btn-success.active {
 p{
 	text-align: justify;
 }
+
+@media (max-width: 700px) {
+  p{
+    text-align: center !important;
+  }
+}
