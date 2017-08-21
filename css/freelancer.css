@@ -20,7 +20,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #2C3E50;
+  color: #4f6a96;
   outline: none;
 }
 
@@ -45,7 +45,6 @@ hr.star-primary {
 }
 hr.star-light:after,
 hr.star-primary:after {
-  content: "\f005";
   font-family: FontAwesome;
   display: inline-block;
   position: relative;
