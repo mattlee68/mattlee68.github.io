@@ -19,7 +19,7 @@
     });
 
     // Closes the Responsive Menu on Menu Item Click
-    $('.navbar-collapse ul li a').click(function(){ 
+    $('.navbar-collapse ul li a').click(function(){
             $('.navbar-toggle:visible').click();
     });
 
@@ -40,5 +40,14 @@
             $(this).removeClass("floating-label-form-group-with-focus");
         });
     });
+
+    // Scroll JS
+    window.sr = ScrollReveal({ reset: true});
+    sr.reveal('.start', 100);
+    sr.reveal('.portfolio-item', 100);
+    sr.reveal('.edu-scroll', 100);
+    sr.reveal('.work-scroll', 100);
+    sr.reveal('.contact', 100);
+    sr.reveal('.follow', 100);
 
 })(jQuery); // End of use strict
