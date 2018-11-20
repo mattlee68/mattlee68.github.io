@@ -1,6 +1,12 @@
 // Freelancer Theme JavaScript
 
-ScrollReveal().reveal("section");
+// Scroll JS
+window.sr = ScrollReveal({reset: true});
+sr.reveal('.start');
+sr.reveal('.portfolio-item');
+sr.reveal('.edu-scroll');
+sr.reveal('.work-scroll');
+sr.reveal('.contact');
 
 (function($) {
     "use strict"; // Start of use strict
@@ -31,25 +37,5 @@ ScrollReveal().reveal("section");
             top: 100
         }
     })
-
-    // Floating label headings for the contact form
-    $(function() {
-        $("body").on("input propertychange", ".floating-label-form-group", function(e) {
-            $(this).toggleClass("floating-label-form-group-with-value", !!$(e.target).val());
-        }).on("focus", ".floating-label-form-group", function() {
-            $(this).addClass("floating-label-form-group-with-focus");
-        }).on("blur", ".floating-label-form-group", function() {
-            $(this).removeClass("floating-label-form-group-with-focus");
-        });
-    });
-
-    // Scroll JS
-    window.sr = ScrollReveal({ reset: true});
-    sr.reveal('.start', 100);
-    sr.reveal('.portfolio-item', 100);
-    sr.reveal('.edu-scroll', 100);
-    sr.reveal('.work-scroll', 100);
-    sr.reveal('.contact', 100);
-    sr.reveal('.follow', 100);
 
 })(jQuery); // End of use strict
