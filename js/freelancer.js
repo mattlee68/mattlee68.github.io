@@ -1,6 +1,6 @@
 // Freelancer Theme JavaScript
 
-ScrollReveal().reveal('div', {opacity: 0.3,duration:500});
+ScrollReveal().reveal("section");
 
 (function($) {
     "use strict"; // Start of use strict
